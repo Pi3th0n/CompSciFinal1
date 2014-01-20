@@ -1,9 +1,27 @@
 The Plan:
 
-Genre:
+Genre: Pirates
 
-Pirates
+You start as a lone pirate, but first you must name yourself and your top 5 shipmates.
 
-You start as a lone pirate, but first you must name yourself top 5 shipmates.
+What about starting as a privateer? You work for the english and steal from the spanish
+As a privateer we could have the crew pre-named as well
+
+Screen Resolution: ?
+(640 x 480 is a default for something but I'm not sure what)
+
+Setting: Carribean, I'm assuming?
+
+Locations: 
+(this should probably be a list of citys you can sail to)
+
+Things you can do:
+(actions)
+
+Things you can have: Rum, Sugar, Wood, Metal, Cloth, Various ammunition.
+(items)
+
+Things that are bad for you:
+(disease, notoriety, etc)
 
 ...
