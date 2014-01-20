@@ -1,8 +1,9 @@
 The Plan:
 
 Genre:
-Oregon Trail?
-Pirates?
-Space?
+
+Pirates
+
+You start as a lone pirate, but first you must name yourself top 5 shipmates.
 
 ...
