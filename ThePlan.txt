@@ -9,6 +9,21 @@ As a privateer we could have the crew pre-named as well
 ^Even as a pirate we could have crew names pre-generated, although your crew
     would be much more diverse and we'd need more names
 
+Pirates:
+    Pros:
+        Wikipedia Page is nice
+        No one will question the historical accuracy
+    Cons: 
+        There's no distinct goal to play for (unless we want to make one up)
+Privateers:
+    Pros:
+        You'll have an actually mission for the game (pay off your investor)
+        You know your whole crew will be the same nationality (easier to generate names)
+    Cons:
+        It'll be more obvious if we're historically innacurate
+
+** Disclaimer: We won't try to be historically accurate **
+
 Screen Resolution: ?
 (640 x 480 is a default for something but I'm not sure what)
 
