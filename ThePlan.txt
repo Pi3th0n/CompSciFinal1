@@ -6,6 +6,8 @@ You start as a lone pirate, but first you must name yourself and your top 5 ship
 
 What about starting as a privateer? You work for the english and steal from the spanish
 As a privateer we could have the crew pre-named as well
+^Even as a pirate we could have crew names pre-generated, although your crew
+    would be much more diverse and we'd need more names
 
 Screen Resolution: ?
 (640 x 480 is a default for something but I'm not sure what)
@@ -18,8 +20,16 @@ Locations:
 Things you can do:
 (actions)
 
-Things you can have: Rum, Sugar, Wood, Metal, Cloth, Various ammunition.
-(items)
+Things you can have (items):
+
+Food - Low Monetary Value. Gets eaten by sailors.
+Rum - Low Monetary Value. Sailors drink it, keeps up morale.
+Oranges - High Monetary Value. 
+Sugar - High Monetary Value. 
+Wood - Low Monetary Value, required for ship upgrades
+Metal - Low Monetary Value, required for ship upgrades
+Cloth - Low Monetary Value, required for ship upgrades
+Ammo - Low Monetary Value, required for skirmishes
 
 Things that are bad for you:
 (disease, notoriety, etc)
