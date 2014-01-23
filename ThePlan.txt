@@ -2,38 +2,27 @@ The Plan:
 
 Genre: Pirates
 
-You start as a lone pirate, but first you must name yourself and your top 5 shipmates.
-
-What about starting as a privateer? You work for the english and steal from the spanish
-As a privateer we could have the crew pre-named as well
-^Even as a pirate we could have crew names pre-generated, although your crew
-    would be much more diverse and we'd need more names
-
-Pirates:
-    Pros:
-        Wikipedia Page is nice
-        No one will question the historical accuracy
-    Cons: 
-        There's no distinct goal to play for (unless we want to make one up)
-Privateers:
-    Pros:
-        You'll have an actually mission for the game (pay off your investor)
-        You know your whole crew will be the same nationality (easier to generate names)
-    Cons:
-        It'll be more obvious if we're historically innacurate
+You're a privateer! You've recently been hired by some english investors to
+interrupt spanish trade in the carribean. You'll have a fixed amount of time to
+collect as much money as you can, after which you must sail back to england to 
+repay your investors.
 
 ** Disclaimer: We won't try to be historically accurate **
 
-Screen Resolution: ?
-(640 x 480 is a default for something but I'm not sure what)
+Screen Resolution(Does this matter?):
+640 x 480
 
-Setting: Carribean, I'm assuming?
+Setting: Carribean
 
-Locations: 
-(this should probably be a list of citys you can sail to)
+Locations(cities/islands/settlements):
+Tortuga
 
-Things you can do:
-(actions)
+
+Things you can do (actions):
+
+Attack enemy ships
+Board enemy ships
+Buy things
 
 Things you can have (items):
 

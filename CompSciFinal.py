@@ -18,3 +18,4 @@ while location = 0
     print("This is our introduction")
     PlFName = str(input("What is your first name? "))
     PlLName = str(input("What is your last name? "))
+    location = 1
