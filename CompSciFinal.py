@@ -14,7 +14,7 @@ location = 0
 # This variable will keep track of where in our program the player is, and should prevent the 
 # program from running code that we don't want to run.
 
-while location = 0
+while location == 0:
     print("This is our introduction")
     PlFName = str(input("What is your first name? "))
     PlLName = str(input("What is your last name? "))
