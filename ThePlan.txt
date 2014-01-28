@@ -23,6 +23,11 @@ Things you can do (actions):
 Attack enemy ships
 Board enemy ships
 Buy things
+fight
+run
+plunder
+rest
+sail
 
 Things you can have (items):
 
@@ -37,5 +42,14 @@ Ammo - Low Monetary Value, required for skirmishes
 
 Things that are bad for you:
 (disease, notoriety, etc)
-
+scurvy
+notoriety
+murder
+assassination
+ship destroyed
+ 
+Ships:
+start with a small size ship. Steal and plunder you're way up to a Man O' War
+The fights would be random. Amount of crew to send over can be chosen. Minimum of 10 must remain on ship.
+Canons would be on a dice roll, 3 to 2 odds. Larger ships get higher counters when it comes to fighting.
 ...
