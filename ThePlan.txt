@@ -1,10 +1,12 @@
 The Plan:
 
-Genre: Pirates
+QUESTION: How much of this game takes place on your ship versus off your ship?
+
+Genre: Privateers
 
 You're a privateer! You've recently been hired by some english investors to
-interrupt spanish trade in the carribean. You'll have a fixed amount of time to
-collect as much money as you can, after which you must sail back to england to 
+interrupt spanish trade in the Caribbean. You'll have a fixed amount of time to
+collect as much money as you can, after which you must sail back to England to 
 repay your investors.
 
 ** Disclaimer: We won't try to be historically accurate **
@@ -12,25 +14,26 @@ repay your investors.
 Screen Resolution(Does this matter?):
 640 x 480
 
-Setting: Carribean
+
+Setting: Caribbean
+
 
 Locations(cities/islands/settlements):
 Tortuga
 
 
 Things you can do (actions):
-
-Attack enemy ships
+Attack enemy ships (w/ cannons and the like)
 Board enemy ships
 Buy things
-fight
-run
+fight (I'm assuming this implies sword fight(maybe includes bar fight))
+run (from enemy ships?)
 plunder
-rest
-sail
+rest - on your ship, on a deserted island, on the streets, in a tavern
+sail - must sail with a destination in mind
+
 
 Things you can have (items):
-
 Food - Low Monetary Value. Gets eaten by sailors.
 Rum - Low Monetary Value. Sailors drink it, keeps up morale.
 Oranges - High Monetary Value. 
@@ -40,15 +43,32 @@ Metal - Low Monetary Value, required for ship upgrades
 Cloth - Low Monetary Value, required for ship upgrades
 Ammo - Low Monetary Value, required for skirmishes
 
-Things that are bad for you:
-(disease, notoriety, etc)
-scurvy
-notoriety
-murder
-assassination
-ship destroyed
- 
+
+Crew Morale:
+On a scale from 0 - 100, player can't see this number directly.
+Morale always wants to approach 50
+Lack of rum decreases morale.  Rum increases it if it's below 50
+Visiting a city increases morale, staying too long decreases morale
+Crew deaths decrease morale
+Captain hogging money from captured ships decreases morale
+If morale drops below 20, the crew commit a mutiny
+
+
+Things that are bad for you (disease, notoriety, etc):
+scurvy - can be cured with oranges
+notoriety - The spanish have heard your name and are beginning to recognize your ship.
+	This will cause them to attack or run as soon as they see you
+ship destroyed - may result in death.  Otherwise, you'll have to be rescued and then buy/capture a new one
+
+
+Ways the game ends:
+murder, assassination - Stephen, elaborate on this please
+Time runs out - Sail back to England to pay off your investors!
+Mutiny! - Don't be mean to your crew
+
 Ships:
+Schooner < Brig < Galley < Frigate < Man o' war
+
 start with a small size ship. Steal and plunder you're way up to a Man O' War
 The fights would be random. Amount of crew to send over can be chosen. Minimum of 10 must remain on ship.
 Canons would be on a dice roll, 3 to 2 odds. Larger ships get higher counters when it comes to fighting.
