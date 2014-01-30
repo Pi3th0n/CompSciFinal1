@@ -45,7 +45,7 @@ Ammo - Low Monetary Value, required for skirmishes
 
 
 Crew Morale:
-On a scale from 0 - 100, player can't see this number directly.
+On a scale from 0 - 100, player can't see this number directly Players should be able to return or print the morale value
 Morale always wants to approach 50
 Lack of rum decreases morale.  Rum increases it if it's below 50
 Visiting a city increases morale, staying too long decreases morale
@@ -62,7 +62,8 @@ ship destroyed - may result in death.  Otherwise, you'll have to be rescued and 
 
 
 Ways the game ends:
-murder, assassination - Stephen, elaborate on this please
+murder, assassination - You can be killed by the Spanish, your crew if they commit a mutiny, or you could be assassinated at random intervals
+	Assassination would be completely random, more likely with bad notoriety 
 Time runs out - Sail back to England to pay off your investors!
 Mutiny! - Don't be mean to your crew
 
