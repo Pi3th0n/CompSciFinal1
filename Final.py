@@ -15,29 +15,29 @@ import math
 
 # Keep track of the date
 def numToDate(num):
-    if num in range(1, 31):
+    if num in range(1, 32):
         return ("January " + numEnding(num))
-    if num in range(32, 59):
+    if num in range(32, 60):
         return ("February " + numEnding(num-31))
-    if num in range(60, 90):
+    if num in range(60, 91):
         return ("March " + numEnding(num-59))
-    if num in range(81, 120):
+    if num in range(81, 121):
         return ("April " + numEnding(num-90))
-    if num in range(111, 151):
+    if num in range(111, 152):
         return ("May " + numEnding(num-120))
-    if num in range(142, 181):
+    if num in range(142, 182):
         return ("June " + numEnding(num-151))
-    if num in range(172, 212):
+    if num in range(172, 213):
         return ("July " + numEnding(num-181))
-    if num in range(213, 243):
+    if num in range(213, 244):
         return ("August " + numEnding(num-212))
-    if num in range(244, 273):
+    if num in range(244, 274):
         return ("September " + numEnding(num-243))
-    if num in range(274, 304):
+    if num in range(274, 305):
         return ("October " + numEnding(num-273))
-    if num in range(305, 334):
+    if num in range(305, 335):
         return ("November " + numEnding(num-304))
-    if num in range(335, 365):
+    if num in range(335, 366):
         return ("December " + numEnding(num-334))
     return "Error: Number not in range"
 
@@ -45,11 +45,14 @@ def numToDate(num):
 # make the grammar work
 def numEnding(num):
     if str(num)[-1] == "1":
-        return (str(num) + "st")
+        if (len(str(num)) >= 2 and str(num)[-2] != "1") or len(str(num)) < 2:
+            return (str(num) + "st")
     if str(num)[-1] == "2":
-        return (str(num) + "nd")
+        if (len(str(num)) >= 2 and str(num)[-2] != "1") or len(str(num)) < 2:
+            return (str(num) + "nd")
     if str(num)[-1] == "3":
-        return (str(num) + "rd")
+        if (len(str(num)) >= 2 and str(num)[-2] != "1") or len(str(num)) < 2:
+            return (str(num) + "rd")
     return (str(num) + "th")
     
 
@@ -148,6 +151,7 @@ print("It is your first day at your new job.")
 action = 0
 
 while day <= maxdays:
+    print("Today is {0}. You have {1} days remaining before you must sail back to England.".format(numToDate(day+100), maxdays-day))    
     print("""What would you like to do today?
 Sail to a new town!----------1
 Explore the town!------------2    
@@ -155,11 +159,12 @@ Plunder nearby enemy ships!--3
 Return to England------------4
 Quit-------------------------5
 """)
+    nextaction = ""
     while not action:
         try:
             nextaction = int(input(""))
         except ValueError:
-            print("{0} is not an integer.  Please enter one of the following integers: 1, 2, 3, 4, or 5.".format(nextaction))
+            print("{0} is not an integer. Please enter one of the following integers: 1, 2, 3, 4, or 5.".format(nextaction))
         if nextaction in [1, 2, 3, 4, 5]:
             action = nextaction
         else:
