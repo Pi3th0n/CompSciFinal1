@@ -145,34 +145,44 @@ while not PlLName:
 print("""Initial values:
 First Name: {0}, Last Name: {1}, Difficulty: {2}, Crew Morale: {3}, Current Money: {4}, Loan: {5}, Location: {6}, Cargo: {7}""".format( PlFName, PlLName, difficulty, morale, money, loan, location, cargo))
 print("It is your first day at your new job.")
+action = 0
 
 while day <= maxdays:
-    action = 0
-    while not action:
-        try:
-            nextaction = int(input("""What would you like to do today?
-Explore the town!------------1    
-Sail to a new town!----------2
+    print("""What would you like to do today?
+Sail to a new town!----------1
+Explore the town!------------2    
 Plunder nearby enemy ships!--3
 Return to England------------4
 Quit-------------------------5
-"""))
+""")
+    while not action:
+        try:
+            nextaction = int(input(""))
         except ValueError:
-            print("Please enter one of the following integers: 1, 2, 3, 4, or 5.")
-            nextaction = 0
+            print("{0} is not an integer.  Please enter one of the following integers: 1, 2, 3, 4, or 5.".format(nextaction))
         if nextaction in [1, 2, 3, 4, 5]:
             action = nextaction
         else:
-            print("Please enter one of the following integers: 1, 2, 3, 4, or 5.")
+            print("{0} is outside the range.  Please enter one of the following integers: 1, 2, 3, 4, or 5.".format(nextaction))
             nextaction = 0
+
+            
+   
+            
     while action == 1:
+        print("You have decided to sail to a new town")
+        action = 6
+
+        
+    while action == 2:
         print("You have chosen to explore the town. You have four options as to what you want to do to waste your time.")
-# Places you can visit:
-#    Taverns - gather information, recruit crewmembers
-#    Shops - buy and sell goods
-#    
-#    If we have extra time - each town should have something unique
+        # Places you can visit:
+        #    Taverns - gather information, recruit crewmembers
+        #    Shops - buy and sell goods
+        #    
+        #    If we have extra time - each town should have something unique
      
+        objective = 0
         while not objective:
             try:
                 objective = int(input("""Where would you like to go?
@@ -196,10 +206,32 @@ Quit-------------------4
 #        if (recruit.lower())[0] == y:
                          
         if objective == 2:
-            pass
+            print("You will be shopping for supplies today")
         if objective == 3:
-            pass
+            print("You will be selling some of your cargo today")
         if objective == 4:
-            pass
+            print("You decide to finish exploring the town for the day")
+            action = 6
 
+            
+    while action == 3:
+        print("You have decieded to plunder nearby enemey ships!")
+        action = 6
         
+        
+    while action == 4:
+        print("You have decided to return to england!")
+        action = 6
+        
+        
+    while action == 5:    
+        print("You have decided to quit the game")
+        days = maxdays + 10
+        action = 7
+        
+        
+    while action == 6:
+        print("Your day draws to a close")
+        day += 1
+        action = 0
+    
