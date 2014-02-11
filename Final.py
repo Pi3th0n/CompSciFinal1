@@ -54,24 +54,6 @@ def numEnding(num):
         if (len(str(num)) >= 2 and str(num)[-2] != "1") or len(str(num)) < 2:
             return (str(num) + "rd")
     return (str(num) + "th")
-    
-
-# Sail to a different town
-def sailAway(location):
-    print("You have chosen to sail to a different town")
-    destination = 0
-    while not destination:
-        destination = input("Please enter the name of the town you would like to sail to: ")
-        if destination == location:
-                print("You open your mouth to give orders, then it hits you. You’re already there.")
-                destination = 0
-        elif destination in townlist:
-                location = destination
-                print("You have spent {0} days sailing to {1}.".format(4, destination))
-        else:
-                print("Please enter a valid destination.  Valid destinations include: ", (townlist - location))
-                destination = 0
-
 
 # Plunder Enemy Ships
 def plunder():
@@ -136,8 +118,8 @@ for stuff in range(len(cargo)):
 
 # Now the game actually begins    
 print("""    You’ve spent the past couple months sailing across the
-Atlantic Ocean. You and your crew are tired but happy to finally 
-walk on solid ground again.  You arrived in {0} 
+Atlantic Ocean. You and your crew are tired but happy to finally
+walk on solid ground again.  You arrived in {0}
 
 """)
 while not PlFName:
@@ -176,7 +158,19 @@ Quit-------------------------5
             
     while action == 1:
         print("You have decided to sail to a new town")
-        action = 6
+        destination = ""
+        while destination == "":
+            destination = input("Please enter the name of the town you would like to sail to: ")
+            if destination == location:
+                print("You open your mouth to give orders, then it hits you. You’re already there.")
+                
+            elif destination in townlist:
+                location = destination
+                print("You have spent {0} days sailing to {1}.".format(4, destination))
+            else:
+                print("Please enter a valid destination.  Valid destinations include: ", (townlist - location))
+                destination = ""
+            action = 6
 
         
     while action == 2:
@@ -230,13 +224,13 @@ Quit-------------------4
         
         
     while action == 5:    
-        print("You have decided to quit the game")
-        days = maxdays + 10
+        print("WARNING: Your game will not be saved. Are you sure you want to continue?")
         action = 7
-        
         
     while action == 6:
         print("Your day draws to a close")
         day += 1
         action = 0
-    
+    if action == 7:
+        break
+
